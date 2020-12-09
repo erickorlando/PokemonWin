@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonWin", "PokemonWin\PokemonWin.csproj", "{0F5F0B2B-CD4F-42B3-9A04-3B1C77B08621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonWin", "PokemonWin\PokemonWin.csproj", "{0F5F0B2B-CD4F-42B3-9A04-3B1C77B08621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonWin.Entities", "PokemonWin.Entities\PokemonWin.Entities.csproj", "{01A5FDA9-914F-48A2-99CB-10000A4AD8B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonWin.Entities", "PokemonWin.Entities\PokemonWin.Entities.csproj", "{01A5FDA9-914F-48A2-99CB-10000A4AD8B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonWin.Service", "PokemonWin.Service\PokemonWin.Service.csproj", "{9309A64E-295B-4877-BE36-E1013AF264DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonWin.Dto", "PokemonWin.Dto\PokemonWin.Dto.csproj", "{6F354D2B-E226-42D6-BE8B-522C585A1C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9309A64E-295B-4877-BE36-E1013AF264DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9309A64E-295B-4877-BE36-E1013AF264DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9309A64E-295B-4877-BE36-E1013AF264DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F354D2B-E226-42D6-BE8B-522C585A1C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F354D2B-E226-42D6-BE8B-522C585A1C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F354D2B-E226-42D6-BE8B-522C585A1C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F354D2B-E226-42D6-BE8B-522C585A1C48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

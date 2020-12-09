@@ -44,7 +44,7 @@ namespace PokemonWin
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(224, 15);
+            this.label1.Size = new System.Drawing.Size(227, 14);
             this.label1.TabIndex = 0;
             this.label1.Text = "Aplicación para Hackaton de Pokemones";
             // 
@@ -70,7 +70,7 @@ namespace PokemonWin
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 326);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 15);
+            this.label2.Size = new System.Drawing.Size(117, 14);
             this.label2.TabIndex = 3;
             this.label2.Text = "Registros por Página";
             // 
@@ -79,22 +79,22 @@ namespace PokemonWin
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(367, 329);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 15);
+            this.label3.Size = new System.Drawing.Size(48, 14);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Página";
+            this.label3.Text = "Saltear:";
             // 
             // txtRowPerPage
             // 
             this.txtRowPerPage.Location = new System.Drawing.Point(134, 323);
             this.txtRowPerPage.Name = "txtRowPerPage";
-            this.txtRowPerPage.Size = new System.Drawing.Size(100, 23);
+            this.txtRowPerPage.Size = new System.Drawing.Size(100, 22);
             this.txtRowPerPage.TabIndex = 4;
             // 
             // txtPagina
             // 
             this.txtPagina.Location = new System.Drawing.Point(421, 323);
             this.txtPagina.Name = "txtPagina";
-            this.txtPagina.Size = new System.Drawing.Size(100, 23);
+            this.txtPagina.Size = new System.Drawing.Size(100, 22);
             this.txtPagina.TabIndex = 4;
             // 
             // lblStatus
@@ -102,14 +102,14 @@ namespace PokemonWin
             this.lblStatus.AutoSize = true;
             this.lblStatus.Location = new System.Drawing.Point(421, 12);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(0, 15);
+            this.lblStatus.Size = new System.Drawing.Size(0, 14);
             this.lblStatus.TabIndex = 5;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 340);
+            this.ClientSize = new System.Drawing.Size(533, 355);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.txtPagina);
             this.Controls.Add(this.txtRowPerPage);

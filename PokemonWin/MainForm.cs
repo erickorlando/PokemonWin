@@ -9,22 +9,25 @@ namespace PokemonWin
         public MainForm()
         {
             InitializeComponent();
+            txtRowPerPage.Text = @"100";
+            txtPagina.Text = @"0";
         }
 
-        private async void btnLoad_Click(object sender, EventArgs e)
+        private void btnLoad_Click(object sender, EventArgs e)
         {
             var proxy = new ProxyPokemon();
-            var response = await proxy.GetListPokemons();
+            proxy.GetListPokemons(Convert.ToInt32(txtRowPerPage.Text),
+                Convert.ToInt32(txtPagina.Text));
             lblStatus.Text = @"Cargando....";
 
-            proxy.ProcesoTerminado += () =>
+            proxy.ProcesoTerminado += (x) =>
              {
                  lblStatus.Invoke((MethodInvoker)(() =>
                  {
                      tvwPokemon.Nodes.Clear();
                      var nodoPadre = tvwPokemon.Nodes.Add("Pokemones");
 
-                     foreach (var result in response.Results)
+                     foreach (var result in x.Results)
                      {
                          nodoPadre.Nodes.Add(result.Name);
                      }

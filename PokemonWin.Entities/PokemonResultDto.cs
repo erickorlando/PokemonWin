@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PokemonWin.Entities
+﻿namespace PokemonWin.Entities
 {
     public class PokemonResultDto
     {
